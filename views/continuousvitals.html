@@ -1,20 +1,44 @@
 Continuous Vitals
 
 <html>
-<title>Continuous Vitals</title>
+	<title>Continuous Vitals</title>
 	<p>
 	<a href = "../index.html"> Home </a>
-	<table style="width:300px">
-		<tr>
-  			<td>Weight</td>
-  			<td>BP</td> 
-  			<td>Fundal Height</td>
-		</tr>
-		<tr>
-  			<td><input type="text" name="Weight"></td>
-  			<td><input type="text" name="BP"></td>
-  			<td><input type="text" name="Fundal Height"></td>
-		</tr>
-	</table>
-</p>
+	</p>
+<form class="form-horizontal">
+<fieldset>
+
+<legend>Continuous Vitals</legend>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Weight</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="lbs" class="form-control input-md">
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Blood Pressure</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="mm Hg" class="form-control input-md">
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Fundal Height</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="cm" class="form-control input-md">
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Fetal Heart Rate</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="bpm" class="form-control input-md">
+  </div>
+</div>
+
+</fieldset>
+</form>
+
 </html>
