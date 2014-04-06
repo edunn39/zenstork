@@ -26,6 +26,11 @@ hr {
   max-width: 400px;
 }
 
+.vitals {
+  width: 100px;
+  color: #fff;
+}
+
 .brand,
 .address-bar {
   display: none;
