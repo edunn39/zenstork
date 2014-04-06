@@ -19,13 +19,13 @@
             <a id="menu-close" href="#" class="btn btn-default btn-md pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand"><a href="#">Emergency Info</a>
             </li>
-            <li><a href="#">Call OB</a>
+            <li><a >Call My OB</a>
             </li>
-            <li><a href="#">Call Clinic</a>
+            <li><a >Call Clinic</a>
             </li>
-            <li><a href="#">Call 911</a>
+            <li><a >Call 911</a>
             </li>
-            <li><a href="#">Find Nearby Hospital</a></li>
+            <li><a id="nearbyHosp" >Find Nearby Hospital</a></li>
            <!--  <li><a href="#">Contact</a>
             </li> -->
         </ul>
@@ -69,22 +69,23 @@
     
     <script>
 
-            $("#mainContainer" ).load("./views/mainContent.html");
+            $("#mainContainer" ).load("./views/homePage.html");
             $("#home").click(function () {
-                $("#mainContainer").html("").load("./views/mainContent.html")
+                $("#mainContainer").html("").load("./views/homePage.html")
                 });
             $("#nav2").click(function () {
                 $("#mainContainer").html("").load("./views/schedVisits.html")
+ 
                 });
             $("#nav3").click(function () {
                 $("#mainContainer").html("").load("./views/vitals.html")
+
                  });
             $("#nav5").click(function () {
                 $("#mainContainer").html("").load("./views/chart1.html")
                 });
-            // $("#nav4").click(function () {
-            //     $("#mainContainer").html("").load("./views/quickHelp.html")
-            //     });
+
+
 
    
     </script>

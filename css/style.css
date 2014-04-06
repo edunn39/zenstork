@@ -10,20 +10,25 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 400;
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 3px;*/
+  /*font-weight: 400;*/
 }
 
 p {
-  font-size: 1.25em;
+  /*font-size: 1.25em;
   line-height: 1.6;
-  color: #000;
+  color: #000;*/
 }
 
 hr {
   border-color: #999999;
   max-width: 400px;
+}
+
+.ulNoMarker
+{
+    list-style-type: none;
 }
 
 .brand,
@@ -56,9 +61,9 @@ hr {
 }
 
 .tagline-divider {
-  margin: 15px auto 3px;
+  margin: 5px auto 3px;
   border-color: #999999;
-  max-width: 250px;
+  /*max-width: 250px;*/
 }
 
 .box {
@@ -68,12 +73,7 @@ hr {
   padding: 30px 15px;
 }
 
-.intro-text {
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 1.25em;
-  font-weight: 400;
-}
+
 
 .img-border {
   float: none;
@@ -99,22 +99,6 @@ footer {
   margin: 0;
 
 }
-
-
-
-
-f
-
-.navbut{
-  display:inline-block;
-  background: #fff;
-  background: rgba(255,255,255,0.9);
-  position: fixed;  
-  bottom: 0px;
-  width: 100%;
-
-}
-
 
 
 #sidebar-wrapper {
