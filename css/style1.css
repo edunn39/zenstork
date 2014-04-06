@@ -28,14 +28,14 @@ hr {
 
 .number-pad
 {
-width:270px;
-height:470px;
-background-color:#999999;
-border-top-right-radius:20px;
-border-top-left-radius:20px;
-border-bottom-right-radius:20px;
-border-bottom-left-radius:20px;
-padding:20px;
+  width:270px;
+  height:470px;
+  background-color:#999999;
+  border-top-right-radius:20px;
+  border-top-left-radius:20px;
+  border-bottom-right-radius:20px;
+  border-bottom-left-radius:20px;
+  padding:20px;
 }
 
 .round-button {
