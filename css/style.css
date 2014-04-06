@@ -1,7 +1,12 @@
-
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400);
+@import url(http://fonts.googleapis.com/css?family=Kite+One:300,400);
+@import url(http://fonts.googleapis.com/css?family=Brawler);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400);
+ 
 
 body {
   /*background: url(../img/bg.jpg) no-repeat center center fixed; */
+  font-family: 'Kite One', sans-serif;
  background-color: #ffebda;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,6 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Brawler', serif;
   /*text-transform: uppercase;*/
   /*letter-spacing: 3px;*/
   /*font-weight: 400;*/
