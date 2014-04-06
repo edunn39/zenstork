@@ -89,23 +89,30 @@ hr {
 footer {
   /*background: #fff;
   background: rgba(255,255,255,0.9);*/
+  height: 50px;
+  display:inline-block;
   background: #fff;
   background: rgba(255,255,255,0.9);
   position: fixed;  
   bottom: 0px;
   width: 100%;
+  margin: 0;
 
 }
 
-footer p {}
+
+
+
+f
 
 .navbut{
+  display:inline-block;
   background: #fff;
   background: rgba(255,255,255,0.9);
   position: fixed;  
   bottom: 0px;
   width: 100%;
-  
+
 }
 
 @media screen and (min-width: 768px) {

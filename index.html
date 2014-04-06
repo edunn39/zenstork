@@ -47,19 +47,25 @@
         
 
     <footer>
-   
-         <div class="col-lg-12">
-           <div class="btn-group">
-              <button type="button" class="btn btn-default" id="nav2">ScheduleVisit</button>
-              <button type="button" class="btn btn-default" id="nav3">visitDetails</button>
-              <button type="button" class="btn btn-default" id="nav4">Vitals</button>
-              <button type="button" class="btn btn-default" id="nav5"> Quick</button>
-            </div>
-        </div>
-        
-                
-        
+        <!-- <div class="" id="nav2">Visit</div>
+        <div class="" id="nav3">visitDetails</div>
+        <div  class="" id="nav4">Vitals</div>
+        <div  class="" id="nav5"> Quick</div> -->
     </footer>
+
+
+<div id="footer">
+  <div class="col-xs-12 navbar-inverse navbar-fixed-bottom">
+  <div class="row" id="bottomNav">
+    <div class="col-xs-3 text-center" id="home"><a ><i class="glyphicon glyphicon-circle-arrow-left"></i><br>Home</a></div>
+    <div class="col-xs-3 text-center" id="nav2"><a ><i class="glyphicon glyphicon-circle-arrow-left"></i><br>Visits</a></div>
+    <div class="col-xs-3 text-center" id="nav3" ><a ><i class="glyphicon glyphicon-circle-arrow-down"></i><br>Vitals</a></div>
+    <div class="col-xs-3 text-center" id="nav5"><a ><i class="glyphicon glyphicon-circle-arrow-right"></i><br>Quick</a></div>
+  </div>
+  </div>
+</div>
+
+
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
@@ -67,8 +73,10 @@
     
     <script>
 
-            $("#mainContainer" ).load("/views/mainContent.html");
-
+            $("#mainContainer" ).load("./views/mainContent.html");
+            $("#home").click(function () {
+                $("#mainContainer").html("").load("./views/mainContent.html")
+                });
             $("#nav2").click(function () {
                 $("#mainContainer").html("").load("./views/schedVisits.html")
                 });
