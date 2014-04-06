@@ -2,7 +2,7 @@
 
 body {
   /*background: url(../img/bg.jpg) no-repeat center center fixed; */
-
+ background-color: #ffebda;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -67,8 +67,8 @@ hr {
 }
 
 .box {
-  background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: #ffebda;
+  /*background: rgba(255,255,255,0.9);*/
   margin-bottom: 20px;
   padding: 30px 15px;
 }
